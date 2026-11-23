@@ -1,6 +1,6 @@
-# Question 1: KDD vs Data Mining
+# Assignment 1
 
-## Answer
+## Question 1: KDD vs Data Mining
 
 ### What is KDD?
 KDD (Knowledge Discovery in Databases) is the complete process of finding useful knowledge from large amounts of data.
@@ -41,10 +41,9 @@ Data Mining is one step of the KDD process. It applies algorithms such as classi
 ### Conclusion
 Data Mining is a part of KDD, while KDD is the full process of turning raw data into useful knowledge.
 
------
-# Question 2: Structured vs Unstructured Dataset
+---
 
-## Answer
+## Question 2: Structured vs Unstructured Dataset
 
 ### What is a Structured Dataset?
 A structured dataset is data that is organized in a fixed format, usually in rows and columns, so it is easy to store, search and analyze.
