@@ -1,4 +1,4 @@
-# Assignment 1
+# Assignment 1 and 2
 
 ## Question 1: KDD vs Data Mining
 
