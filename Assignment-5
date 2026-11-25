@@ -1,0 +1,35 @@
+## Question 5: Probability Density Function (Short Note)
+
+### What is a Probability Density Function?
+A Probability Density Function (PDF) describes how the probability is spread over the values of a continuous random variable. It is written as f(x).
+
+For a continuous variable, the probability of one exact value is zero. So probability is found as the area under the PDF curve between two values.
+
+Formula: P(a ≤ X ≤ b) = area under f(x) from a to b
+
+### Properties of PDF
+1. f(x) is never negative, so f(x) ≥ 0 for all x.
+2. The total area under the curve is 1.
+3. The probability of an exact value is 0, so P(X = a) = 0.
+4. The probability of a range is the area under the curve between the two values.
+5. The value of f(x) is a density, not a probability, so it can be greater than 1.
+
+### Example
+The normal distribution has the bell-shaped PDF:
+
+f(x) = (1 / (σ * sqrt(2π))) * e^( -(x - μ)^2 / (2σ^2) )
+
+where μ is the mean and σ is the standard deviation.
+
+### PDF vs PMF
+1. PDF is used for continuous variables (height, weight, time).
+2. PMF (Probability Mass Function) is used for discrete variables (coin tosses, dice).
+3. In PDF, probability is the area under the curve. In PMF, probability is given directly for each value.
+
+### Uses
+1. Finding the probability that a value lies in a given range.
+2. Describing the shape of continuous data.
+3. Used in statistics, machine learning and data mining.
+
+### Conclusion
+A PDF shows how the probability of a continuous variable is distributed, and the total area under its curve is always 1.
