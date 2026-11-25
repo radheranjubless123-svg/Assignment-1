@@ -1,0 +1,42 @@
+## Question 3: Normalization (Short Note)
+
+### Part A: Normalization in Data Mining
+
+Normalization is a data preprocessing technique. It scales the values of an attribute into a small common range, such as 0 to 1, so that no attribute dominates the others.
+
+Why it is needed:
+1. Attributes with large values (like salary) would overpower attributes with small values (like age).
+2. It improves the accuracy of algorithms like KNN, clustering and neural networks.
+3. It makes comparison between different attributes fair.
+
+Methods of Normalization:
+
+1. Min-Max Normalization
+   - It scales the data to a fixed range, usually 0 to 1.
+   - Formula: v' = (v - min) / (max - min)
+
+2. Z-Score Normalization
+   - It uses the mean and the standard deviation of the data.
+   - Formula: v' = (v - mean) / standard deviation
+
+3. Decimal Scaling
+   - It moves the decimal point of the values.
+   - Formula: v' = v / 10^j, where j is the smallest integer such that max(|v'|) is less than 1
+
+### Part B: Normalization in DBMS
+
+Normalization is the process of organizing a database into smaller, related tables to reduce data redundancy (repeated data) and to avoid insert, update and delete problems.
+
+Normal Forms:
+1. 1NF: Every column holds a single value, with no repeating groups.
+2. 2NF: The table is in 1NF and has no partial dependency. Every non-key column depends on the whole primary key.
+3. 3NF: The table is in 2NF and has no transitive dependency. Non-key columns do not depend on other non-key columns.
+4. BCNF: A stronger version of 3NF, where every determinant is a candidate key.
+
+Advantages:
+1. Less data redundancy
+2. Better data consistency
+3. Easier maintenance of the database
+
+### Conclusion
+Normalization in data mining scales values to a common range, while normalization in DBMS organizes tables to remove redundancy.
