@@ -1,0 +1,58 @@
+## Question 4: Normal Distribution vs Binomial Distribution
+
+### What is Normal Distribution?
+Normal distribution is a continuous probability distribution in which the data is spread symmetrically around the mean. Its graph is a bell-shaped curve.
+
+Features:
+1. It is symmetric about the mean.
+2. Mean, median and mode are all equal.
+3. It is defined by two parameters: mean (μ) and standard deviation (σ).
+4. The total area under the curve is 1.
+
+Examples: heights of people, marks of students, blood pressure.
+
+### What is Binomial Distribution?
+Binomial distribution is a discrete probability distribution that gives the probability of getting a fixed number of successes in a fixed number of independent trials.
+
+Features:
+1. The number of trials (n) is fixed.
+2. Each trial has only two outcomes: success or failure.
+3. The probability of success (p) is the same in every trial.
+4. The trials are independent of each other.
+
+Formula: P(X = k) = nCk * p^k * (1 - p)^(n - k)
+
+Examples: number of heads in 10 coin tosses, number of defective items in a batch.
+
+### Difference between Normal and Binomial Distribution
+
+1. Type of data
+   - Normal: Continuous distribution.
+   - Binomial: Discrete distribution.
+
+2. Parameters
+   - Normal: Mean (μ) and standard deviation (σ).
+   - Binomial: Number of trials (n) and probability of success (p).
+
+3. Shape of graph
+   - Normal: Smooth, bell-shaped and symmetric curve.
+   - Binomial: Bars (histogram); symmetric only when p = 0.5, otherwise skewed.
+
+4. Possible values
+   - Normal: Any real value, from minus infinity to plus infinity.
+   - Binomial: Only whole numbers from 0 to n.
+
+5. Outcomes
+   - Normal: No fixed number of outcomes.
+   - Binomial: Only two outcomes in each trial, success or failure.
+
+6. Probability
+   - Normal: Found as the area under the curve over a range.
+   - Binomial: Found for exact values using the formula.
+
+7. Examples
+   - Normal: Height, weight, marks.
+   - Binomial: Coin tosses, pass or fail results.
+
+### Conclusion
+Normal distribution is continuous and bell-shaped, while binomial distribution is discrete and counts the number of successes in a fixed number of trials. When n is large, the binomial distribution can be approximated by the normal distribution.
